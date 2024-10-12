@@ -4,13 +4,15 @@ Jianze Li, [Jiezhang Cao](https://www.jiezhangcao.com/), Zichen Zou, Xiongfei Su
 
 [[arXiv](https://github.com/JianzeLi-114/DFOSD)] [[supplementary material](https://github.com/JianzeLi-114/DFOSD)] [visual results] [models]
 
-<p align="center">
-  <img src="figs/compare.png">
-</p>
+
 
 > **Abstract:** Diffusion models have been achieving excellent performance for real-world image super-resolution (Real-ISR) with considerable computational costs. Current approaches are trying to derive one-step diffusion models from multi-step counterparts through knowledge distillation. However, these methods incur substantial training costs and may constrain the performance of the student model by the teacher's limitations. To tackle these issues, we propose DFOSD, a Distillation-Free One-Step Diffusion model. Specifically, we propose a noise-aware discriminator (NAD) to participate in adversarial training, further enhancing the authenticity of the generated content. Additionally, we improve the perceptual loss with edge-aware DISTS (EA-DISTS) to enhance the model's ability to generate fine details. Our experiments demonstrate that, compared with previous diffusion-based methods requiring dozens or even hundreds of steps, our DFOSD attains comparable or even superior results in both quantitative metrics and qualitative evaluations. Our DFOSD also abtains higher performance and efficiency compared with other one-step diffusion methods.
 
 ![](figs/overview.png)
+
+<p align="center">
+  <img src="figs/compare.png">
+</p>
 
 ---
 
@@ -39,7 +41,7 @@ Jianze Li, [Jiezhang Cao](https://www.jiezhangcao.com/), Zichen Zou, Xiongfei Su
 </details>
 
 <details>
-<summary>DFOSD achieves fastest infenence speed. (click to expand)</summary>
+<summary>DFOSD achieves the fastest inference speed. (click to expand)</summary>
 
 - Complexity comparison (&times;4) among different DM-based methods.
 <p align="center">
@@ -61,9 +63,14 @@ Jianze Li, [Jiezhang Cao](https://www.jiezhangcao.com/), Zichen Zou, Xiongfei Su
 ## Citation
 
 If you find the code helpful in your research or work, please cite the following paper(s).
-
-[TBD]
-
+```
+@article{li2024distillation,
+  title={Distillation-Free One-Step Diffusion for Real-World Image Super-Resolution},
+  author={Li, Jianze and Cao, Jiezhang and Zou, Zichen and Su, Xiongfei and Yuan, Xin and Zhang, Yulun and Guo, Yong and Yang, Xiaokang},
+  journal={arXiv preprint arXiv:2410.04224},
+  year={2024}
+}
+```
 
 ## 💡 Acknowledgements
 
