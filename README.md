@@ -1,4 +1,4 @@
-# DFOSD: Distillation-Free One-Step Diffusion for Real-World Image Super-Resolution
+# Distillation-Free One-Step Diffusion for Real-World Image Super-Resolution
 
 Jianze Li, [Jiezhang Cao](https://www.jiezhangcao.com/), Zichen Zou, Xiongfei Su, Xin Yuan, [Yulun Zhang](http://yulunzhang.com/), [Yong Guo](https://www.guoyongcs.com/), and [Xiaokang Yang](https://scholar.google.com/citations?user=yDEavdMAAAAJ), "Distillation-Free One-Step Diffusion for Real-World Image Super-Resolution", arXiv, 2024
 
